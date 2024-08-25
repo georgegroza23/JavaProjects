@@ -20,7 +20,8 @@ public class SpaceAge {
 	/**
 	 * Converts the given age in years into seconds.
 	 * 
-	 * @param ageInYears the age given in years*/
+	 * @param ageInYears the age given in years
+  	 * @return age coverted into seconds*/
 	public static double convertYearsInSeconds(double ageInYears) {
 		return SECONDS_IN_DAY * 365.25 * ageInYears;
 	}
